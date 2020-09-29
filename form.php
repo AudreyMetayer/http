@@ -18,7 +18,7 @@
       <input  type="text"  id="prenom"  name="user_firstname">
     </div>
     <div>
-      <label  for="courriel">Courriel :</label>
+      <label  for="mail">Courriel :</label>
         <input  type="email"  id="mail"  name="user_email">
     </div>
     <div>
