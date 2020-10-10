@@ -10,20 +10,20 @@
 
 <form  action="thanks.php"  method="post">
     <div>
-      <label  for="nom">Nom :</label>
-      <input  type="text"  id="nom"  name="user_name">
+      <label  for="name">Nom :</label>
+      <input  type="text"  id="nom"  name="name" required>
     </div>
     <div>
-      <label  for="prenom">Prénom :</label>
-      <input  type="text"  id="prenom"  name="user_firstname">
+      <label  for="firstname">Prénom :</label>
+      <input  type="text"  id="prenom"  name="firstname" required>
     </div>
     <div>
-      <label  for="courriel">Courriel :</label>
-        <input  type="email"  id="mail"  name="user_email">
+      <label  for="email">Courriel :</label>
+        <input  type="email"  id="mail"  name="email" required>
     </div>
     <div>
       <label  for="phone">Téléphone :</label>
-        <input  type="tel"  id="phone"  name="user_phone">
+        <input  type="tel"  id="phone"  name="phone" required>
     </div>
 
     <div>
@@ -35,7 +35,7 @@
     </div>
     <div>
       <label  for="message">Message :</label>
-      <textarea  id="message"  name="user_message"></textarea>
+      <textarea  id="message"  name="message"></textarea>
     </div>
     <div  class="button">
       <button  type="submit">Envoyer votre message</button>
